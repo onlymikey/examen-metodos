@@ -1,0 +1,12 @@
+{
+  "method": "newton_multivariable_2d",
+  "f1": "exp(x*y) + x^2*sin(y) - log(x + 2) - 3",
+  "f2": "x*cos(x*y) + y^3 - exp(-x) - 1",
+  "j11": "y*exp(x*y) + 2*x*cos(x*y) + x^2*cos(y)",
+  "j12": "x*sin(x*y) + 3*y^2",
+  "j21": "-x*sin(x*y)",
+  "j22": "3*x*cos(x*y) - exp(-x)",
+  "x0": 1.1,
+  "y0": 0.8,
+  "iterations": 7
+}
